@@ -33,6 +33,7 @@ h1 {
     margin-left: 25px;
     margin-top: 25px;
     width: 550px;
+    justify-content: space-around;
 }
 
 .Car-name {
@@ -53,12 +54,16 @@ h3 {
     margin-right: 50px;
 }
 
+.btn{
+    margin-top: 35px;
+}
 .btn a {
     background-color: white;
     border: 2px solid black;
     padding: 15px;
     border-radius: 20px;
     cursor: pointer;
+    margin-left: 30vh;
 }
 
 .btn a:hover {
