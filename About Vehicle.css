@@ -6,11 +6,20 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
-.header {
-    height: 250px;
+header {
     width: 100vw;
-    background-color: black;
+    height: 50vh;
+    background: url(S.k\ Transport\ Car\ Photo/S.k_Transport_Vehicle_Banner.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content {
+    margin-bottom: 150px;
+    color: white;
+    text-align: center;
 }
 
 h1,
