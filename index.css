@@ -352,7 +352,7 @@ a:hover {
     cursor: pointer;
 }
 
-@media  (max-width:950px) {
+@media  (max-width:900px) {
     .navbar {
         padding: 0;
     }
