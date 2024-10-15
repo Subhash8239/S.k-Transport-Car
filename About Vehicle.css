@@ -29,7 +29,6 @@ header {
 .img img {
     margin-left: 75px;
     padding-top: 75px;
-    /* margin-top: 25px; */
     width: 50%;
     justify-content: space-around;
 }
@@ -66,4 +65,21 @@ h3{
     background-color: black;
     color: white;
     transition: .5s;
+}
+
+
+
+
+
+@media (max-width:900px){
+    header {
+        background-position: center;
+    }
+    .img img {
+     width: 55%;
+    }
+    .Car-name {
+        text-align: center;
+        width: 100%;
+    }
 }
