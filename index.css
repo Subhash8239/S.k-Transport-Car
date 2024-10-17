@@ -48,7 +48,6 @@ header {
     height: 100vh;
     background:url(S.k\ Transport\ Car\ Photo/Car.webp);
     background-repeat: no-repeat;
-    width: 100vw;
 }
 .content{
     text-align: center;
@@ -353,7 +352,7 @@ a:hover {
     cursor: pointer;
 }
 
-@media  (max-width:1024px) {
+@media  (max-width:850px) {
     .navbar {
         padding: 0;
     }
@@ -382,8 +381,7 @@ a:hover {
         margin: 30px auto;
     }
     header {
-        height: 100vh;
-        width: 100vw;
+        /* height: 50vh; */
         background-position: center;
     }
     .row {
