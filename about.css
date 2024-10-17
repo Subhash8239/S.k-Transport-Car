@@ -33,11 +33,11 @@ header {
     text-align: center;
 }
 .section-heading {
-    padding-left: 5rem;
-    margin-top: 5rem;
+    padding-left: 5vw;
+    margin-top: 5vh;
 }
 .info-1 {
-    font-size: 2.8vmin;
+    font-size: 18px;
     font-family: "Poppins";
 }
 .info-2 {
@@ -66,8 +66,8 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
     margin-top: 50px;
     background: #000;
     height: 500px;
@@ -234,11 +234,25 @@ hr {
 
 
 
-@media (max-width:850px) {
+@media (max-width:1024px) {
     header {
         height: 40vh;
         background: url(S.k\ Transport\ Car\ Photo/About_car_mobile.webp);
         background-size: cover;
         background-position: center;
+    }
+    .section-heading {
+        font-size: 6vw;
+    }
+    .about-section {
+        margin-top: 3vh;
+        padding-left: 5vw;
+    }
+    .about-section-1 {
+        height: auto;
+        padding-left: 12vw;
+        gap: 8vw;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
