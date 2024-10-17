@@ -130,7 +130,7 @@ p {
 .explore {
     width: 100%;
     height: 80vh;
-    background: url(S.k\ Transport\ Car\ Photo/Explore_the_world.webp);
+    background: url(S.k\ Transport\ Car\ Photo/Baleno.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -407,10 +407,6 @@ a:hover {
     }
     .explore-content {
         width: 100%;
-    }
-    .explore {
-        height: 80vh;
-        background-position: center;
     }
     .explore-content h1 {
         font-size: 9.9vmin;
