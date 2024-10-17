@@ -12,12 +12,11 @@ body {
     display: flex;
     position: absolute;
     top: 0px;
-    left: 0;
-    width: 100%;
+    left: 0px;
+    width: 100vw;
     justify-content: space-between;
     padding: 10px 80px 10px 100px;
     background: white;
-    color: whitesmoke;
 }
 .logo {
     height: 50px;
@@ -128,7 +127,7 @@ p {
     margin-top: 30px;
 }
 .explore {
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     background: url(S.k\ Transport\ Car\ Photo/Baleno.webp);
     background-position: center;
@@ -358,6 +357,8 @@ a:hover {
 @media  (max-width:850px) {
     .navbar {
         padding: 0;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.2);
     }
     .logo {
         position: absolute;
@@ -369,19 +370,18 @@ a:hover {
         width: 100%;
         height: 100vh;
         justify-content: center;
-        background: #484872;
         margin-top: -900px;
         transition: all 0.5s ease;
     }
     .mobile-menu {
         margin-top: 0px;
-        border-bottom-right-radius: 30%;
     }
     .menu-btn {
         display: block;
     }
     .nav-links a {
         margin: 30px auto;
+        font-size: 3vh;
     }
     header {
         background: url(S.k\ Transport\ Car\ Photo/Car2.webp);
@@ -411,6 +411,9 @@ a:hover {
     .explore-content h1 {
         font-size: 9.9vmin;
     }
+    .explore-content p {
+        width: 95%;
+    }
     .tours.col {
         width: 100%;
     }
@@ -422,10 +425,7 @@ a:hover {
         align-items: center;
     }
     .content-col p {
-        width: 100%;
-    }
-    .image-gallery img {
-        width: 100%;
+        width: 40vh;
     }
     footer {
         bottom: unset;
