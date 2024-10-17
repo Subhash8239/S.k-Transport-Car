@@ -11,11 +11,12 @@ html {
 }
 header {
     width: 100vw;
-    height: 100vh;
-    background: url();
+    height: 50vh;
+    background: url(S.k\ Transport\ Car\ Photo/About_car.webp);
     background-position: bottom;
     background-size: cover;
     display: flex;
+    padding-top: 450px;
     align-items: flex-end;
     justify-content: center;
 }
@@ -228,5 +229,15 @@ hr {
 
     100% {
         left: 100%;
+    }
+}
+
+
+
+@media (max-width:850px) {
+    header {
+        height: 50vh;
+        background: url(S.k\ Transport\ Car\ Photo/About_car_mobile.webp);
+        background-size: cover;
     }
 }
