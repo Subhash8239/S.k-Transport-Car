@@ -94,6 +94,7 @@ header {
 }
 video {
     border-radius: 20px;
+    width: 600px;
 }
 h3{
     font-size: 4vmin;
