@@ -48,6 +48,8 @@ header {
     height: 100vh;
     background:url(S.k\ Transport\ Car\ Photo/Car.webp);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .content{
     text-align: center;
@@ -104,6 +106,7 @@ section {
 }
 .row .col img {
     width: 80%;
+    height: 250px;
 }
 .col img {
     border-radius: 15px;
@@ -381,8 +384,10 @@ a:hover {
         margin: 30px auto;
     }
     header {
-        /* height: 50vh; */
+        background: url(S.k\ Transport\ Car\ Photo/Car2.webp);
         background-position: center;
+        background-size: cover;
+        height: 40vh;
     }
     .row {
         flex-direction: column;
@@ -392,6 +397,7 @@ a:hover {
     }
     .row .col img {
         width: 85%;
+        height: 200px;
     }
     .title {
         font-size: 7vmin;
